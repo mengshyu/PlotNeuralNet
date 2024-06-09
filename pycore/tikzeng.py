@@ -48,7 +48,7 @@ def to_Conv( name, s_filer=256, n_filer=64, offset="(0,0,0)", to="(0,0,0)", widt
         name=""" + name +""",
         caption="""+ caption +r""",
         xlabel={{"""+ str(n_filer) +""", }},
-        zlabel="""+ str(s_filer) +""",
+        zlabel="""+""",
         fill=\ConvColor,
         height="""+ str(height) +""",
         width="""+ str(width) +""",
