@@ -8,7 +8,7 @@ arch = [
     to_begin(),
     
     # Input image
-    to_input('../examples/fcn8s/cats.jpg'),
+    to_input('../examples/Mobilenet/kitten_224x224.jpg'),
     
     # Initial Conv Layer
     to_Conv("conv1", 224, 224, offset="(0,0,0)", to="(0,0,0)", height=40, depth=40, width=4, caption="Conv1 (3x3)" ),
